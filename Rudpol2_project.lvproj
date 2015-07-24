@@ -19,6 +19,7 @@
 		<Item Name="Rejestrator2_main.vi" Type="VI" URL="../Rejestrator2_main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
 				<Item Name="DAQmx Create AI Channel TEDS(sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel TEDS(sub).vi"/>
@@ -148,6 +149,7 @@
 				<Item Name="DAQmx Read (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U16).vi"/>
 				<Item Name="DAQmx Read (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U32).vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
+				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Set CJC Parameters (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Set CJC Parameters (sub).vi"/>
 				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
@@ -212,19 +214,12 @@
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 			</Item>
-			<Item Name="AI HW config.ctl" Type="VI" URL="../SubVI/Kontrolki/AI HW config.ctl"/>
-			<Item Name="AIHW config to serial.vi" Type="VI" URL="../SubVI/KartaDAQ/AIHW config to serial.vi"/>
-			<Item Name="chanel config routing.vi" Type="VI" URL="../SubVI/KartaDAQ/chanel config routing.vi"/>
 			<Item Name="Counter refnum.ctl" Type="VI" URL="../SubVI/Kontrolki/Counter refnum.ctl"/>
 			<Item Name="DAQ all read tasks.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ all read tasks.ctl"/>
 			<Item Name="DAQ analog channel config.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ analog channel config.ctl"/>
 			<Item Name="DAQ counter channel config.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ counter channel config.ctl"/>
-			<Item Name="DAQ digital channel config.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ digital channel config.ctl"/>
 			<Item Name="Device create channels.vi" Type="VI" URL="../SubVI/KartaDAQ/Device create channels.vi"/>
 			<Item Name="device create counters.vi" Type="VI" URL="../SubVI/KartaDAQ/device create counters.vi"/>
-			<Item Name="device create digital.vi" Type="VI" URL="../SubVI/KartaDAQ/device create digital.vi"/>
-			<Item Name="Digital Refnum.ctl" Type="VI" URL="../SubVI/Kontrolki/Digital Refnum.ctl"/>
-			<Item Name="HW card digital config.vi" Type="VI" URL="../SubVI/KartaDAQ/HW card digital config.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
