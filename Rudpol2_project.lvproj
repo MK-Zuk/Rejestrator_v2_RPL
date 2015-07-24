@@ -214,12 +214,7 @@
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 			</Item>
-			<Item Name="Counter refnum.ctl" Type="VI" URL="../SubVI/Kontrolki/Counter refnum.ctl"/>
 			<Item Name="DAQ all read tasks.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ all read tasks.ctl"/>
-			<Item Name="DAQ analog channel config.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ analog channel config.ctl"/>
-			<Item Name="DAQ counter channel config.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ counter channel config.ctl"/>
-			<Item Name="Device create channels.vi" Type="VI" URL="../SubVI/KartaDAQ/Device create channels.vi"/>
-			<Item Name="device create counters.vi" Type="VI" URL="../SubVI/KartaDAQ/device create counters.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
