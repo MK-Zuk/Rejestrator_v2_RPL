@@ -217,7 +217,6 @@
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 			</Item>
-			<Item Name="AI_wartosc.ctl" Type="VI" URL="../../../../../Dysk google/Projekty LabVIEW/! Rudpol/Program/Kontrolki/AI_wartosc.ctl"/>
 			<Item Name="DAQ all read tasks.ctl" Type="VI" URL="../SubVI/Kontrolki/DAQ all read tasks.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
