@@ -1,6 +1,6 @@
 Kanal	Aktywny	Opis	Prog
-1 	T 	DI1 	1
-2 	T 	DI2 	2
+1 	T 	DI1 	63
+2 	T 	DI2 	64
 3 	F 	DI3 	0
 4 	F 	D4 	0
-F 	 DI4 	 0
+	 DI4 	 0
