@@ -365,7 +365,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1D1A730B-856F-4FFB-BB6C-BF93A4E0D267}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPA_Rejestrator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Demo_01/OPA_Rejestrator.exe</Property>
@@ -390,7 +390,7 @@
 				<Property Name="TgtF_targetfileName" Type="Str">OPA_Rejestrator.exe</Property>
 			</Item>
 			<Item Name="My Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Rudpol Rejestrator</Property>
+				<Property Name="Destination[0].name" Type="Str">Rudpol_Rejestrator</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -465,19 +465,7 @@
 				<Property Name="Source[0].name" Type="Str">Konfiguracja</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Konfiguracja</Property>
 				<Property Name="Source[0].type" Type="Str">Folder</Property>
-				<Property Name="Source[1].dest" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
-				<Property Name="Source[1].File[0].dest" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
-				<Property Name="Source[1].File[0].name" Type="Str">OPA_Rejestrator.exe</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">OPA_Rejestrator</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">Rejestrator_install</Property>
-				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[1].File[0].tag" Type="Str">{E4BD1753-66FB-4102-A35B-257A1D2DA192}</Property>
-				<Property Name="Source[1].FileCount" Type="Int">1</Property>
-				<Property Name="Source[1].name" Type="Str">Demo_01</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/Demo_01</Property>
-				<Property Name="Source[1].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
