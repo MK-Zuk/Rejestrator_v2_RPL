@@ -27,7 +27,6 @@
 		</Item>
 		<Item Name="Ikona_programu.ico" Type="Document" URL="../BMP/Ikona_programu.ico"/>
 		<Item Name="Rejestrator2_main.vi" Type="VI" URL="../Rejestrator2_main.vi"/>
-		<Item Name="Untitled 3.vi" Type="VI" URL="../SubVI/Pomocnicze/Untitled 3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
