@@ -374,7 +374,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1D1A730B-856F-4FFB-BB6C-BF93A4E0D267}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPA_Rejestrator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Demo_01/OPA_Rejestrator.exe</Property>
@@ -384,7 +384,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Demo_01/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Ikona_programu.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4421A326-9F23-4847-BF9D-37BDC576D485}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6C6CA307-ECE0-4569-BD99-E8397B6BD36D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Rejestrator2_main.vi</Property>
