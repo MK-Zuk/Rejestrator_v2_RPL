@@ -1,0 +1,27 @@
+[Przetw_0]
+X = "U"
+Jedn = "V"
+transX = 0,050000
+transU = 1,000000
+opis = "Brak"
+
+[Przetw_1]
+X = "I"
+Jedn = "A"
+transX = 10000,000000
+transU = 0,060000
+opis = "I->U"
+
+[Przetw_2]
+X = "V"
+Jedn = "m/s"
+transX = 1,000000
+transU = 1,000000
+opis = "V->U"
+
+[Przetw_3]
+X = "I1"
+Jedn = "A"
+transX = 0,500000
+transU = 100,000000
+opis = "PrzetwA1"
