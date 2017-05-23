@@ -366,6 +366,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ograniczenie.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/ograniczenie.vi"/>
+			<Item Name="rozniczka.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/rozniczka.vi"/>
+			<Item Name="Wygladzanie.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/Wygladzanie.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Demo_01" Type="EXE">
