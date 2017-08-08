@@ -362,14 +362,10 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="Enk wykryj zmiany sygn.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/Enk wykryj zmiany sygn.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ograniczenie.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/ograniczenie.vi"/>
-			<Item Name="rozniczka.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/rozniczka.vi"/>
-			<Item Name="Wygladzanie.vi" Type="VI" URL="../../../Desktop/rozniczkowanie/Wygladzanie.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Demo_01" Type="EXE">
@@ -389,7 +385,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{1D1A730B-856F-4FFB-BB6C-BF93A4E0D267}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Rudpol2_project/Demo_01/Rudpol2_project_Demo_01_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPA_Rejestrator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Demo_01/OPA_Rejestrator.exe</Property>
@@ -399,7 +395,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Demo_01/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Ikona_programu.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{112205DA-7814-4E06-A5FF-6C416B5BC05D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{70A2316C-4AE9-4BD4-A5FF-4BD2C4F28244}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Rejestrator2_main.vi</Property>
@@ -433,6 +429,18 @@
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">true</Property>
 				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI System Web Server 14.5</Property>
 				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2014</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{4372F3E3-5935-4012-93AB-B6710CE24920}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[13].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[13].productName" Type="Str">NI Deployment Framework 2014</Property>
+				<Property Name="DistPart[0].SoftDep[13].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">true</Property>
 				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Logos 14.0</Property>
 				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
@@ -445,11 +453,23 @@
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Error Reporting 2014</Property>
 				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">6</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Runtime 2014 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{CAC8FA79-6D3D-4263-BB7B-1A706EF87C08}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI Service Locator 14.0</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{B235B862-6A92-4A04-A8B2-6D71F777DE67}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{3BDD0408-2F90-4B42-9777-5ED1D4BE67A8}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI LabVIEW Web Server 2014</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{4A8BDBBB-DA1C-45C9-8563-74C034FBD357}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">14</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{4722F14B-8434-468D-840D-2B0CD8CBD5EA}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{186697F7-B4DB-4491-AD7D-38997D01DD97}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Core Runtime 9.7.5</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{EC7F05D5-0D85-4407-ACCA-A2163D5BF0E5}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Runtime 14.0</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
 				<Property Name="DistPartCount" Type="Int">2</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -458,7 +478,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
 				<Property Name="INST_productName" Type="Str">Rejestrator_install</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14018013</Property>
 				<Property Name="MSI_distID" Type="Str">{DA7B1A0E-267D-47A6-8C33-939CA4434C00}</Property>
