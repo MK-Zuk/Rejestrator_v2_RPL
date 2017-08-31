@@ -28,6 +28,9 @@
 		<Item Name="TDMS" Type="Folder" URL="../TDMS">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Zmienne" Type="Folder" URL="../Zmienne">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Edycja Wykres 1-old.vi" Type="VI" URL="../../../Desktop/temp/Edycja Wykres 1-old.vi"/>
 		<Item Name="Ikona_programu.ico" Type="Document" URL="../BMP/Ikona_programu.ico"/>
 		<Item Name="Rejestrator2_main.vi" Type="VI" URL="../Rejestrator2_main.vi"/>
