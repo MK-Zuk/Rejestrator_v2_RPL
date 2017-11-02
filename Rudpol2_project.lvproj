@@ -388,7 +388,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{1D1A730B-856F-4FFB-BB6C-BF93A4E0D267}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Rudpol2_project/Demo_01/Rudpol2_project_Demo_01_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OPA_Rejestrator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Demo_01/OPA_Rejestrator.exe</Property>
@@ -413,7 +413,7 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E4BD1753-66FB-4102-A35B-257A1D2DA192}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">OPA_Rejestrator.exe</Property>
 			</Item>
-			<Item Name="My Installer" Type="Installer">
+			<Item Name="Rejestrator Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Rudpol_Rejestrator</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
@@ -422,7 +422,11 @@
 				<Property Name="Destination[1].parent" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{16F201D4-8997-4078-B73D-E52B3CD8FD98}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].name" Type="Str">Rejestrator</Property>
+				<Property Name="Destination[2].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{CF512606-7D2B-48CB-810F-D58533B880DE}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{331B6132-FA2A-458D-828D-B0DA0237739A}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2014 SP1 f3</Property>
@@ -476,18 +480,21 @@
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
 				<Property Name="DistPartCount" Type="Int">2</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Rejestrator_install/My Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Rejestrator_install/Rejestrator Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{AE043D19-374C-4563-A37F-784A61F15FA8}</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Rejestrator Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{CF512606-7D2B-48CB-810F-D58533B880DE}</Property>
 				<Property Name="INST_productName" Type="Str">Rejestrator_install</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14018013</Property>
 				<Property Name="MSI_distID" Type="Str">{DA7B1A0E-267D-47A6-8C33-939CA4434C00}</Property>
 				<Property Name="MSI_osCheck" Type="Int">4</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{89B60ED8-10F7-4472-9A37-56AFA5831719}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">Wersja demonstracyjna bez obsługi urządzenia</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Wersja testowa programu
+UWAGA!
+należy dodatkowo skopiować zawartość katalogu rejestracyjnego
+do katalogu "Dokumenty\Rejestrator\</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Instalator programu Rejestrator</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
